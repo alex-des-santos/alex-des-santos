@@ -8,3 +8,13 @@ I'm Alex, a Data Analyst passionate about advancing toward Data Science. My miss
 
 Check out my Data Science Guide: [datascients-guide](https://github.com/alex-des-santos/datascients-guide)  
 Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
+
+## My Public Repositories
+
+- [analise-habitos-desempenho](https://github.com/alex-des-santos/analise-habitos-desempenho)
+- [csv-insights-tool](https://github.com/alex-des-santos/csv-insights-tool)
+- [datascients-guide](https://github.com/alex-des-santos/datascients-guide)
+- [docker-stable-diffusion-webui-forge](https://github.com/alex-des-santos/docker-stable-diffusion-webui-forge)
+- [network-troubleshooting](https://github.com/alex-des-santos/network-troubleshooting)
+- [OLX-Price-Search](https://github.com/alex-des-santos/OLX-Price-Search)
+- [personal-management-system](https://github.com/alex-des-santos/personal-management-system)
