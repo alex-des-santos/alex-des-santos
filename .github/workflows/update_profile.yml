@@ -1,62 +1,44 @@
-# Nome do Workflow que aparecerá na aba "Actions" do GitHub
-name: Update Profile README
+name: Update Profile README nightly
 
 on:
-  # O gatilho (trigger) do workflow. Ele será executado sempre que
-  # um repositório na sua conta for tornado público.
-  public:
+  # Executa o workflow todo dia à 1h da manhã (horário UTC)
+  schedule:
+    - cron: '0 1 * * *'
+  
+  # Permite que você execute este workflow manualmente a partir da aba Actions
+  workflow_dispatch:
 
 jobs:
-  # Define um "job" (trabalho) chamado update-readme.
-  # Um workflow pode ter um ou mais jobs.
   update-readme:
-    # O tipo de máquina virtual onde o job será executado.
-    # 'ubuntu-latest' é uma escolha comum e recomendada.
     runs-on: ubuntu-latest
-
-    # A sequência de passos (steps) que o job executará.
     steps:
-      # Passo 1: Clona o repositório do seu perfil para a máquina virtual.
       - name: Checkout profile repository
         uses: actions/checkout@v4
         with:
-          # Usa o PAT (armazenado como um secret) para autenticar,
-          # permitindo que o workflow faça 'git push' mais tarde.
           token: ${{ secrets.PROFILE_PAT }}
-          # Especifica qual repositório deve ser clonado.
           repository: alex-des-santos/alex-des-santos
 
-      # Passo 2: Configura o ambiente Python na máquina virtual.
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+      
+      - name: Install dependencies
+        run: pip install requests
 
-      # Passo 3: Executa o script Python.
-      - name: Update README file
-        run: |
-          # Passa o nome e a URL do repositório (que acionou o evento 'public')
-          # como argumentos para o script Python.
-          python .github/scripts/update_readme.py "${{ github.event.repository.name }}" "${{ github.event.repository.html_url }}"
+      - name: Update README file with public repos
+        run: python .github/scripts/update_readme.py
+        env:
+          GITHUB_USER: ${{ github.repository_owner }}
 
-      # Passo 4: Envia as alterações feitas no README.md de volta para o GitHub.
       - name: Commit and push changes
         run: |
-          # Configura o Git com um usuário genérico para o commit.
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # Adiciona o arquivo README.md à área de "staging" do Git.
           git add README.md
-          
-          # Verifica se há de fato alguma alteração para commitar.
-          # Isso evita commits vazios se o script não modificar o arquivo.
           if ! git diff --staged --quiet; then
-            # Se houver alterações, cria um novo commit.
-            git commit -m "docs(readme): ✨ Adiciona o repositório ${{ github.event.repository.name }}"
-            # Empurra (push) o commit para o branch principal do seu repositório.
+            git commit -m "docs(readme): 🤖 Atualiza a lista de repositórios públicos"
             git push
           else
-            # Se não houver alterações, apenas exibe uma mensagem no log.
             echo "Nenhuma alteração no README para commitar."
           fi
