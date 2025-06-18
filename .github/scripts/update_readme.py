@@ -1,23 +1,46 @@
 # .github/scripts/update_readme.py
-import sys
+import os
+import requests
 import re
 
-def update_readme(repo_name, repo_url, readme_path='README.md'):
-    """
-    Adiciona um novo link de repositório à seção 'My Public Repositories'
-    no README.md, mantendo a lista em ordem alfabética e evitando duplicatas.
-    """
-    new_link = f"- [{repo_name}]({repo_url})"
-    section_header = "## My Public Repositories"
+def get_public_repos(github_user):
+    """Busca todos os repositórios públicos de um usuário via API do GitHub."""
+    repos = []
+    page = 1
+    while True:
+        # Usamos a API pública, não precisa de token para esta parte
+        url = f"https://api.github.com/users/{github_user}/repos?type=owner&sort=updated&per_page=100&page={page}"
+        response = requests.get(url)
+        if response.status_code != 200:
+            print(f"Erro ao buscar repositórios: {response.status_code} - {response.text}")
+            break
+        
+        data = response.json()
+        if not data:
+            break
+            
+        for repo in data:
+            # Filtramos para pegar apenas repositórios que não são forks
+            if not repo['fork']:
+                repos.append({'name': repo['name'], 'url': repo['html_url']})
+        page += 1
+        
+    return repos
 
+def update_readme(github_user, readme_path='README.md'):
+    """Atualiza o README com a lista de repositórios públicos."""
+    section_header = "## My Public Repositories"
+    
+    public_repos = get_public_repos(github_user)
+    repo_links = sorted([f"- [{repo['name']}]({repo['url']})" for repo in public_repos], key=str.lower)
+    
     try:
         with open(readme_path, 'r', encoding='utf-8') as f:
             lines = f.readlines()
     except FileNotFoundError:
         print(f"Erro: O arquivo {readme_path} não foi encontrado.")
-        sys.exit(1)
+        return
 
-    # Encontra o início e o fim da seção de repositórios
     start_index = -1
     end_index = -1
     for i, line in enumerate(lines):
@@ -26,47 +49,29 @@ def update_readme(repo_name, repo_url, readme_path='README.md'):
         elif start_index != -1 and line.strip().startswith("##"):
             end_index = i
             break
-
+            
     if start_index == -1:
-        print(f"Erro: A seção '{section_header}' não foi encontrada no README.md.")
-        sys.exit(1)
+        print(f"A seção '{section_header}' não foi encontrada. Adicionando ao final do arquivo.")
+        lines.append(f"\n{section_header}\n")
+        lines.extend([f"{link}\n" for link in repo_links])
+    else:
+        if end_index == -1:
+            end_index = len(lines)
+            
+        # Constrói o novo conteúdo do README
+        new_lines = lines[:start_index + 1]
+        new_lines.extend([f"{link}\n" for link in repo_links])
+        # Adiciona uma linha em branco para separação, se necessário
+        if end_index < len(lines) and lines[end_index].strip() != "":
+             new_lines.append("\n")
+        new_lines.extend(lines[end_index:])
+        lines = new_lines
 
-    if end_index == -1:
-        end_index = len(lines)
-
-    # Extrai a lista atual de repositórios
-    repo_list = []
-    for i in range(start_index + 1, end_index):
-        line = lines[i].strip()
-        if line.startswith("- ["):
-            repo_list.append(line)
-
-    # Verifica se o link já existe
-    if any(repo_url in item for item in repo_list):
-        print(f"O link para o repositório '{repo_name}' já existe. Nenhuma alteração necessária.")
-        sys.exit(0)
-
-    # Adiciona o novo link e ordena a lista
-    repo_list.append(new_link)
-    repo_list.sort(key=lambda x: x.lower()) # Ordena alfabeticamente
-
-    # Reconstrói as linhas do README
-    new_lines = lines[:start_index + 1]
-    new_lines.extend([f"{item}\n" for item in repo_list])
-
-    # Garante que haja uma linha em branco após a lista, se havia antes
-    if end_index < len(lines) and lines[end_index].strip() == "":
-         new_lines.append("\n")
-
-    new_lines.extend(lines[end_index:])
-
-    # Salva o arquivo README atualizado
     with open(readme_path, 'w', encoding='utf-8') as f:
-        f.writelines(new_lines)
-
-    print(f"README.md atualizado com sucesso com o repositório {repo_name}.")
+        f.writelines(lines)
+        
+    print("README.md atualizado com sucesso!")
 
 if __name__ == '__main__':
-    repo_name = sys.argv[1]
-    repo_url = sys.argv[2]
-    update_readme(repo_name, repo_url)
+    github_user = os.getenv('GITHUB_USER', 'alex-des-santos')
+    update_readme(github_user)
