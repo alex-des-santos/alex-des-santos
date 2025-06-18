@@ -10,11 +10,10 @@ Check out my Data Science Guide: [datascients-guide](https://github.com/alex-des
 Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 
 ## My Public Repositories
-
+- [alex-des-santos](https://github.com/alex-des-santos/alex-des-santos)
 - [analise-habitos-desempenho](https://github.com/alex-des-santos/analise-habitos-desempenho)
 - [csv-insights-tool](https://github.com/alex-des-santos/csv-insights-tool)
 - [datascients-guide](https://github.com/alex-des-santos/datascients-guide)
-- [docker-stable-diffusion-webui-forge](https://github.com/alex-des-santos/docker-stable-diffusion-webui-forge)
 - [network-troubleshooting](https://github.com/alex-des-santos/network-troubleshooting)
-- [OLX-Price-Search](https://github.com/alex-des-santos/OLX-Price-Search)
+- [resume-otimizator](https://github.com/alex-des-santos/resume-otimizator)
 - [whatsapp-rpg-gm](https://github.com/alex-des-santos/whatsapp-rpg-gm)
