@@ -12,6 +12,7 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 ## My Public Repositories
 - [alex-des-santos](https://github.com/alex-des-santos/alex-des-santos)
 - [analise-habitos-desempenho](https://github.com/alex-des-santos/analise-habitos-desempenho)
+- [Case-Analista-Dados](https://github.com/alex-des-santos/Case-Analista-Dados)
 - [csv-insights-tool](https://github.com/alex-des-santos/csv-insights-tool)
 - [datascients-guide](https://github.com/alex-des-santos/datascients-guide)
 - [network-troubleshooting](https://github.com/alex-des-santos/network-troubleshooting)
