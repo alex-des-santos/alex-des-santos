@@ -8,6 +8,15 @@ pages_repos:
     title: "CSV Insights Tool"
     description: "Ferramenta para análise de arquivos CSV"
   # Adicione novos repos com GitHub Pages aqui
+  - repo: analise-habitos-desempenho-do-repo
+    url: https://alex-des-santos.github.io/analise-habitos-desempenho/
+    title: "Título do Projeto"
+    description: "Análise de Hábitos e Desempenho de estudantes do Kaggle"
+  - repo: esume-otimizator
+    url: https://github.com/alex-des-santos/resume-otimizator
+    title: "Assistente de Carreira com IA – Otimizador de Currículo"
+    description: "Otimize seu currículo, prepare-se para entrevistas e fortaleça sua presença profissional usando inteligência artificial generativa."  
+  # Adicione novos repos com GitHub Pages aqui
   # - repo: nome-do-repo
   #   url: https://alex-des-santos.github.io/nome-do-repo/
   #   title: "Título do Projeto"
