@@ -1,0 +1,49 @@
+name: Update README with GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+    paths: 
+      - 'pages-config.yml'
+      - '.github/workflows/update-readme.yml'
+  workflow_dispatch: # Permite execução manual
+  schedule:
+    - cron: '0 6 * * 1' # Segunda-feira às 6h UTC (verificação semanal)
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyyaml requests
+        
+    - name: Update README
+      run: python .github/scripts/update_readme_pages.py
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        if git diff --quiet; then
+          echo "No changes to commit"
+        else
+          git add README.md
+          git commit -m "🤖 Auto-update GitHub Pages links in README"
+          git push
+        fi
