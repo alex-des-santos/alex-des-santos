@@ -18,7 +18,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        token: ${{ secrets.PERSONAL_TOKEN || secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.PROFILE_PAT }}
         persist-credentials: true
         
     - name: Setup Python
@@ -36,11 +36,15 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
-    - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v5
-      with:
-        commit-message: "🤖 Auto-update GitHub Pages links in README"
-        title: "Update GitHub Pages links"
-        body: "Automated update of GitHub Pages links in README.md"
-        branch: "update-readme-pages"
-        delete-branch: true
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        if git diff --quiet; then
+          echo "No changes to commit"
+        else
+          git add README.md
+          git commit -m "🤖 Auto-update GitHub Pages links in README"
+          git push
+        fi
