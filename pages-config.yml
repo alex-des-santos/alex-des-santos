@@ -10,9 +10,9 @@ pages_repos:
   # Adicione novos repos com GitHub Pages aqui
   - repo: analise-habitos-desempenho-do-repo
     url: https://alex-des-santos.github.io/analise-habitos-desempenho/
-    title: "Título do Projeto"
+    title: "Análise Interativa de Hábitos Estudantis e Desempenho Acadêmico"
     description: "Análise de Hábitos e Desempenho de estudantes do Kaggle"
-  - repo: esume-otimizator
+  - repo: resume-otimizator
     url: https://github.com/alex-des-santos/resume-otimizator
     title: "Assistente de Carreira com IA – Otimizador de Currículo"
     description: "Otimize seu currículo, prepare-se para entrevistas e fortaleça sua presença profissional usando inteligência artificial generativa."  
