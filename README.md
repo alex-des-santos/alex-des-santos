@@ -6,7 +6,7 @@ I'm Alex, a Data Analyst passionate about advancing toward Data Science. My miss
 - 🚀 I love building solutions that drive business impact.
 - 🎮 In my free time, I play video games, watch movies/TV series, and read Philosophy books.
 
-Check out my Data Science Guide: [datascients-guide](https://github.com/alex-des-santos/datascients-guide)  
+Check out my Portifolio: https://alexsantos.pro
 Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 
 ## 🌐 GitHub Pages
