@@ -33,7 +33,7 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 
 ###
 
-![Snake animation](https://raw.githubusercontent.com/alex-des-santos/alex-des-santos/output/output/snake.svg)
+<img src="https://raw.githubusercontent.com/alex-des-santos/alex-des-santos/output/snake.svg" alt="Snake animation" />
 
 ###
 
@@ -44,9 +44,9 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 ###
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alex-des-santos/alex-des-santos/output/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alex-des-santos/alex-des-santos/output/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/alex-des-santos/alex-des-santos/output/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alex-des-santos/alex-des-santos/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alex-des-santos/alex-des-santos/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/alex-des-santos/alex-des-santos/output/pacman-contribution-graph.svg">
 </picture>
 
 ###
