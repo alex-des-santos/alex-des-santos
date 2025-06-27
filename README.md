@@ -43,6 +43,7 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 <div align="center">
   <img src="https://profile-counter.glitch.me/alex-des-santos/count.svg?"  />
 </div>
+
 ###
 
 <picture>
@@ -51,7 +52,6 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
   <img alt="Snake animation" src="https://raw.githubusercontent.com/alex-des-santos/alex-des-santos/output/snake.svg">
 </picture>
 
-###
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=alex-des-santos&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
