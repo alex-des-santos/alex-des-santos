@@ -27,9 +27,11 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 - [resume-otimizator](https://github.com/alex-des-santos/resume-otimizator)
 - [whatsapp-rpg-gm](https://github.com/alex-des-santos/whatsapp-rpg-gm)
 
-[<div align="left">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-</div>](https://www.linkedin.com/in/alex-des-santos/)
+<div align="left">
+  <a href="https://www.linkedin.com/in/alex-des-santos" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  </a>
+</div>
 
 ###
 
