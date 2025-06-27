@@ -43,6 +43,13 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 <div align="center">
   <img src="https://profile-counter.glitch.me/alex-des-santos/count.svg?"  />
 </div>
+###
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alex-des-santos/alex-des-santos/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alex-des-santos/alex-des-santos/output/snake.svg">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/alex-des-santos/alex-des-santos/output/snake.svg">
+</picture>
 
 ###
 
