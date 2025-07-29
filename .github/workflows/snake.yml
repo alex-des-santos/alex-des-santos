@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10 # Timeout aumentado
 
     steps:
       - name: Generate snake files
@@ -27,6 +27,7 @@ jobs:
             dist/snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true # Adicionado para tolerar falhas eventuais
 
       - name: Push snake files to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
