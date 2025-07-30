@@ -42,7 +42,7 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 ###
 
 <div align="center">
-  <img src="[URL_DA_IMAGEM_DO_BADGE](https://www.credly.com/badges/874d348a-9ba1-41ed-9171-cff943912bed/public_url)" alt="Credly Badge" width="150" />
+  <img src="https://images.credly.com/size/340x340/images/88c25fa4-9007-42cc-b9c5-16441a878507/GCC_badge_DA_1000x1000.png" alt="Credly Badge" width="150" />
 </div>
 
 ###
