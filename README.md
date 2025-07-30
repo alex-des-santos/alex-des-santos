@@ -41,13 +41,9 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 
 ###
 
-<div 
-  data-iframe-width="150" 
-  data-iframe-height="270" 
-  data-share-badge-id="874d348a-9ba1-41ed-9171-cff943912bed" 
-  data-share-badge-host="https://www.credly.com"
-  style="display: block; margin-left: auto; margin-right: auto; width: 150px;"
-></div>
+<div align="center">
+  <img src="[URL_DA_IMAGEM_DO_BADGE](https://www.credly.com/badges/874d348a-9ba1-41ed-9171-cff943912bed/public_url)" alt="Credly Badge" width="150" />
+</div>
 
 ###
 
