@@ -29,6 +29,7 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 - [network-troubleshooting](https://github.com/alex-des-santos/network-troubleshooting)
 - [resume-otimizator](https://github.com/alex-des-santos/resume-otimizator)
 - [whatsapp-rpg-gm](https://github.com/alex-des-santos/whatsapp-rpg-gm)
+- [windows-event-analyzer](https://github.com/alex-des-santos/windows-event-analyzer)
 
 ###
 
