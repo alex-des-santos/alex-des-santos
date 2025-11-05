@@ -67,4 +67,4 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 
 ###
 
-[![Support me on Ko-fi](https://cdn.ko-fi.com/cdn/kofi5.png?v=3)](https://ko-fi.com/alexdessantos)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R61NWJHP)
