@@ -18,6 +18,7 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 - **[Adventure Works - Análise de Dados Executiva](https://github.com/alex-des-santos/Case-Analista-Dados)** - Dashboard interativo desenvolvido para análise financeira da Adventure Works
 
 ## My Public Repositories
+- [agentdemo24por7](https://github.com/alex-des-santos/agentdemo24por7)
 - [alex-des-santos](https://github.com/alex-des-santos/alex-des-santos)
 - [analise-habitos-desempenho](https://github.com/alex-des-santos/analise-habitos-desempenho)
 - [Case-Analista-Dados](https://github.com/alex-des-santos/Case-Analista-Dados)
