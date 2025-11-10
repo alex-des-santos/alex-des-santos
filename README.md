@@ -14,9 +14,8 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 - **[Data Science Guide](https://alex-des-santos.github.io/datascients-guide/)** - Guia completo de Data Science
 - **[CSV Insights Tool](https://alex-des-santos.github.io/csv-insights-tool/)** - Ferramenta para análise de arquivos CSV
 - **[Análise Interativa de Hábitos Estudantis e Desempenho Acadêmico](https://alex-des-santos.github.io/analise-habitos-desempenho/)** - Análise de Hábitos e Desempenho de estudantes do Kaggle
-- **[Assistente de Carreira com IA – Otimizador de Currículo](https://github.com/alex-des-santos/resume-otimizator)** - Otimize seu currículo, prepare-se para entrevistas e fortaleça sua presença profissional
-- **[Adventure Works - Análise de Dados Executiva](https://github.com/alex-des-santos/Case-Analista-Dados)** - Dashboard interativo desenvolvido para análise financeira da Adventure Works
-
+- **[Assistente de Carreira com IA – Otimizador de Currículo](https://github.com/alex-des-santos/resume-otimizator)** - Otimize seu currículo, prepare-se para entrevistas e fortaleça sua presença profissional usando inteligência artificial generativa.
+- **[Adventure Works - Análise de Dados Executiva](https://github.com/alex-des-santos/Case-Analista-Dados)** - Dashboard interativo desenvolvido para análise financeira da Adventure Works, empresa de bicicletas, com projeções de Machine Learning para 2022 e análise de mercado brasileiro.
 ## My Public Repositories
 - [agentdemo24por7](https://github.com/alex-des-santos/agentdemo24por7)
 - [alex-des-santos](https://github.com/alex-des-santos/alex-des-santos)
