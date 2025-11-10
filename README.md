@@ -18,6 +18,22 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 - **[Adventure Works - Análise de Dados Executiva](https://github.com/alex-des-santos/Case-Analista-Dados)** - Dashboard interativo desenvolvido para análise financeira da Adventure Works
 
 ## My Public Repositories
+- [agentdemo24por7](https://github.com/alex-des-santos/agentdemo24por7)
+- [alex-des-santos](https://github.com/alex-des-santos/alex-des-santos)
+- [analise-habitos-desempenho](https://github.com/alex-des-santos/analise-habitos-desempenho)
+- [Case-Analista-Dados](https://github.com/alex-des-santos/Case-Analista-Dados)
+- [Case-Engenheiro-dados](https://github.com/alex-des-santos/Case-Engenheiro-dados)
+- [csv-insights-tool](https://github.com/alex-des-santos/csv-insights-tool)
+- [dash-desmatamento-fogo-chuva](https://github.com/alex-des-santos/dash-desmatamento-fogo-chuva)
+- [datascients-guide](https://github.com/alex-des-santos/datascients-guide)
+- [encceja-pandemia-impact-analysis](https://github.com/alex-des-santos/encceja-pandemia-impact-analysis)
+- [kpis-governance-dashboard](https://github.com/alex-des-santos/kpis-governance-dashboard)
+- [machine-learning-alg](https://github.com/alex-des-santos/machine-learning-alg)
+- [network-troubleshooting](https://github.com/alex-des-santos/network-troubleshooting)
+- [promptsections](https://github.com/alex-des-santos/promptsections)
+- [resume-otimizator](https://github.com/alex-des-santos/resume-otimizator)
+- [whatsapp-rpg-gm](https://github.com/alex-des-santos/whatsapp-rpg-gm)
+- [windows-event-analyzer](https://github.com/alex-des-santos/windows-event-analyzer)
 
 ###
 
