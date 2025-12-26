@@ -63,8 +63,13 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 </picture>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=alex-des-santos&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical" alt="GitHub stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=alex-des-santos&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" alt="Top languages">
+  <!-- Shields.io badges substituindo os cards externos -->
+  <img src="https://img.shields.io/github/followers/alex-des-santos?style=social" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/alex-des-santos/alex-des-santos?style=flat-square&logo=github" alt="Stars" />
+  <img src="https://img.shields.io/github/forks/alex-des-santos/alex-des-santos?style=flat-square" alt="Forks" />
+  <img src="https://img.shields.io/github/license/alex-des-santos/alex-des-santos" alt="License" />
+  <img src="https://img.shields.io/github/last-commit/alex-des-santos/alex-des-santos" alt="Last Commit" />
+  <img src="https://img.shields.io/github/languages/top/alex-des-santos/alex-des-santos?color=blue" alt="Top Language" />
 </div>
 
 ###
