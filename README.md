@@ -6,17 +6,20 @@ I'm Alex, a Data Analyst passionate about advancing toward Data Science. My miss
 - 🚀 I love building solutions that drive business impact.
 - 🎮 In my free time, I play video games, watch movies/TV series, and read Philosophy books.
 
-Check out my Portifolio: https://alexsantos.pro
+Check out my Portifolio: <https://alexsantos.pro>
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 
 ## 🌐 GitHub Pages
+
 - **[Data Science Guide](https://alex-des-santos.github.io/datascients-guide/)** - Guia completo de Data Science
 - **[CSV Insights Tool](https://alex-des-santos.github.io/csv-insights-tool/)** - Ferramenta para análise de arquivos CSV
 - **[Análise Interativa de Hábitos Estudantis e Desempenho Acadêmico](https://alex-des-santos.github.io/analise-habitos-desempenho/)** - Análise de Hábitos e Desempenho de estudantes do Kaggle
 - **[Assistente de Carreira com IA – Otimizador de Currículo](https://github.com/alex-des-santos/resume-otimizator)** - Otimize seu currículo, prepare-se para entrevistas e fortaleça sua presença profissional usando inteligência artificial generativa.
 - **[Adventure Works - Análise de Dados Executiva](https://github.com/alex-des-santos/Case-Analista-Dados)** - Dashboard interativo desenvolvido para análise financeira da Adventure Works, empresa de bicicletas, com projeções de Machine Learning para 2022 e análise de mercado brasileiro.
+
 ## My Public Repositories
+
 - [agentdemo24por7](https://github.com/alex-des-santos/agentdemo24por7)
 - [alex-des-santos](https://github.com/alex-des-santos/alex-des-santos)
 - [analise-habitos-desempenho](https://github.com/alex-des-santos/analise-habitos-desempenho)
@@ -43,7 +46,6 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/alex-des-santos/alex-des-santos/output/pacman-contribution-graph.svg">
 </picture>-->
 
-
 ###
 
 <div align="center">
@@ -52,7 +54,6 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 <div align="center">
   <img src="https://images.credly.com/images/9267a387-1a51-4ebe-8c05-976a5ec4c3d0/image.png" alt="Credly Badge" width="150" />
 </div>
-
 
 ###
 
@@ -63,13 +64,8 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 </picture>
 
 <div align="center">
-  <!-- Shields.io badges substituindo os cards externos -->
-  <img src="https://img.shields.io/github/followers/alex-des-santos?style=social" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/alex-des-santos/alex-des-santos?style=flat-square&logo=github" alt="Stars" />
-  <img src="https://img.shields.io/github/forks/alex-des-santos/alex-des-santos?style=flat-square" alt="Forks" />
-  <img src="https://img.shields.io/github/license/alex-des-santos/alex-des-santos" alt="License" />
-  <img src="https://img.shields.io/github/last-commit/alex-des-santos/alex-des-santos" alt="Last Commit" />
-  <img src="https://img.shields.io/github/languages/top/alex-des-santos/alex-des-santos?color=blue" alt="Top Language" />
+  <!-- Metrics gerado pelo Github Action -->
+  <img src="https://github.com/alex-des-santos/alex-des-santos/blob/metrics/github-metrics.svg" alt="Metrics" />
 </div>
 
 ###
