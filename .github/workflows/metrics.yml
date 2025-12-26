@@ -21,6 +21,7 @@ jobs:
           user: alex-des-santos
           template: classic
           base: header, activity, community, repositories, metadata
+          repositories_affiliations: owner, collaborator, organization_member
           config_timezone: America/Sao_Paulo
           
           # Plugins
@@ -29,3 +30,12 @@ jobs:
           plugin_languages_colors: github
           plugin_languages_limit: 8
           plugin_lines: yes
+          
+          # Achievements and Habits
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
+          
+          # Calendar (optional, can be redundant with snake but looks good)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year

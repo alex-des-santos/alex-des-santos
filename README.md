@@ -65,7 +65,7 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 
 <div align="center">
   <!-- Metrics gerado pelo Github Action -->
-  <img src="https://github.com/alex-des-santos/alex-des-santos/blob/metrics/github-metrics.svg" alt="Metrics" />
+  <img src="github-metrics.svg" alt="Metrics" />
 </div>
 
 ###
