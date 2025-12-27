@@ -19,10 +19,10 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 - **[Adventure Works - Análise de Dados Executiva](https://github.com/alex-des-santos/Case-Analista-Dados)** - Dashboard interativo desenvolvido para análise financeira da Adventure Works, empresa de bicicletas, com projeções de Machine Learning para 2022 e análise de mercado brasileiro.
 
 ## My Public Repositories
-
 - [agentdemo24por7](https://github.com/alex-des-santos/agentdemo24por7)
 - [alex-des-santos](https://github.com/alex-des-santos/alex-des-santos)
 - [analise-habitos-desempenho](https://github.com/alex-des-santos/analise-habitos-desempenho)
+- [auditoria_NoelRJ](https://github.com/alex-des-santos/auditoria_NoelRJ)
 - [Case-Analista-Dados](https://github.com/alex-des-santos/Case-Analista-Dados)
 - [Case-Engenheiro-dados](https://github.com/alex-des-santos/Case-Engenheiro-dados)
 - [csv-insights-tool](https://github.com/alex-des-santos/csv-insights-tool)
