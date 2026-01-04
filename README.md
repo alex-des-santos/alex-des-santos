@@ -17,24 +17,6 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 - **[Assistente de Carreira com IA – Otimizador de Currículo](https://github.com/alex-des-santos/resume-otimizator)** - Otimize seu currículo, prepare-se para entrevistas e fortaleça sua presença profissional usando inteligência artificial generativa.
 - **[Adventure Works - Análise de Dados Executiva](https://github.com/alex-des-santos/Case-Analista-Dados)** - Dashboard interativo desenvolvido para análise financeira da Adventure Works, empresa de bicicletas, com projeções de Machine Learning para 2022 e análise de mercado brasileiro.
 ## My Public Repositories
-- [agentdemo24por7](https://github.com/alex-des-santos/agentdemo24por7)
-- [alex-des-santos](https://github.com/alex-des-santos/alex-des-santos)
-- [analise-habitos-desempenho](https://github.com/alex-des-santos/analise-habitos-desempenho)
-- [auditoria_NoelRJ](https://github.com/alex-des-santos/auditoria_NoelRJ)
-- [Case-Analista-Dados](https://github.com/alex-des-santos/Case-Analista-Dados)
-- [Case-Engenheiro-dados](https://github.com/alex-des-santos/Case-Engenheiro-dados)
-- [csv-insights-tool](https://github.com/alex-des-santos/csv-insights-tool)
-- [dash-desmatamento-fogo-chuva](https://github.com/alex-des-santos/dash-desmatamento-fogo-chuva)
-- [datascients-guide](https://github.com/alex-des-santos/datascients-guide)
-- [encceja-pandemia-impact-analysis](https://github.com/alex-des-santos/encceja-pandemia-impact-analysis)
-- [kpis-governance-dashboard](https://github.com/alex-des-santos/kpis-governance-dashboard)
-- [machine-learning-alg](https://github.com/alex-des-santos/machine-learning-alg)
-- [network-troubleshooting](https://github.com/alex-des-santos/network-troubleshooting)
-- [projeto_conciliacao](https://github.com/alex-des-santos/projeto_conciliacao)
-- [promptsections](https://github.com/alex-des-santos/promptsections)
-- [resume-otimizator](https://github.com/alex-des-santos/resume-otimizator)
-- [whatsapp-rpg-gm](https://github.com/alex-des-santos/whatsapp-rpg-gm)
-- [windows-event-analyzer](https://github.com/alex-des-santos/windows-event-analyzer)
 
 ###
 
