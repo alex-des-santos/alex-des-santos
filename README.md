@@ -38,6 +38,7 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/alex-des-santos/)
 - [projeto_conciliacao](https://github.com/alex-des-santos/projeto_conciliacao)
 - [promptsections](https://github.com/alex-des-santos/promptsections)
 - [resume-otimizator](https://github.com/alex-des-santos/resume-otimizator)
+- [templates-skills](https://github.com/alex-des-santos/templates-skills)
 - [whatsapp-rpg-gm](https://github.com/alex-des-santos/whatsapp-rpg-gm)
 - [windows-event-analyzer](https://github.com/alex-des-santos/windows-event-analyzer)
 
